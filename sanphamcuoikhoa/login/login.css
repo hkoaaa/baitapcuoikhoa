@@ -1,0 +1,29 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.yoyo {
+    font-size: 30px;
+    color: rgb(102, 220, 252);
+    }
+.yaya input{
+    width: 400px;
+    margin: 5px;
+    padding: 12px;
+    
+}
+.yeye input{
+    width: 400px;
+    margin: 5px;
+    padding: 12px;
+}
+.yuyu {
+font-size: 20px;
+color : white ;
+background-color: red;
+width: 150px ;
+margin :8px ;
+padding: 4px ;
+}
+.yiyi {}
