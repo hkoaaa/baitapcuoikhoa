@@ -44,6 +44,7 @@ s
     color: #fff;
     border: none;
     cursor: pointer;
+    
 }
 
 .btn btn-outline-success {
@@ -58,6 +59,7 @@ s
     background: #2f3640;
     border-radius: 50px;
     position: relative;
+         left: -50px;
   }
   
   .searchButton {
@@ -172,5 +174,49 @@ text-align: center;
 }
 .uouo {
     display: flex;
+    justify-content: space-around
+ 
+    
     
 }
+.navbar-brand {
+     font-size: 50px;
+     position: relative;
+     left : 30px ;
+}
+.active {
+     font-size: 25px ;
+     position: relative;
+     left : 50px ;
+}
+.oke {
+    font-size: 25px ;
+    position: relative;
+    left : 60px ;
+}
+.dropdown-toggle {
+    font-size: 22px ;
+    position: relative;
+    left : 70px ;
+}
+.disabled {
+    font-size: 20px ;
+    position: relative;
+    left : 80px ;
+}
+.okee {
+    font-size : 2em ;
+    color : black ;
+    position: relative;
+    left : -30px ;
+}
+.oki {
+    font-size: 30px;
+    text-align: center;
+}
+.ok{
+    text-align: center;
+}
+
+
+
