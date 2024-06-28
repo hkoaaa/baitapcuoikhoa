@@ -9,8 +9,14 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    
 }
+.yiyi {
 
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 h1 {
     text-align: center;
 }
@@ -30,7 +36,7 @@ h1 {
 .product img {
     max-width: 100%;
 }
-
+s
 .product button {
     margin-top: 10px;
     padding: 5px 10px;
@@ -38,4 +44,179 @@ h1 {
     color: #fff;
     border: none;
     cursor: pointer;
+    
 }
+
+.btn btn-outline-success {
+    padding-left: 300px;
+}
+.searchBox {
+    display: flex;
+    max-width: 230px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    background: #2f3640;
+    border-radius: 50px;
+    position: relative;
+         left: -50px;
+  }
+  
+  .searchButton {
+    color: white;
+    position: absolute;
+    right: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--gradient-2, linear-gradient(90deg, #2AF598 0%, #009EFD 100%));
+    border: 0;
+    display: inline-block;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  }
+  /*hover effect*/
+  button:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
+    transform: translateY(-3px);
+  }
+  /*button pressing effect*/
+  button:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  
+  .searchInput {
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    padding: 24px 46px 24px 26px;
+  }
+  button {
+    --border-radius: 15px;
+    --border-width: 4px;
+    appearance: none;
+    position: relative;
+    padding: 1em 2em;
+    border: 0;
+    background-color: #212121;
+    font-family: "Roboto", Arial, "Segoe UI", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    z-index: 2;
+   }
+   
+   .yoyo::after {
+    --m-i: linear-gradient(#000, #000);
+    --m-o: content-box, padding-box;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: var(--border-width);
+    border-radius: var(--border-radius);
+    background-image: conic-gradient(
+           #488cfb,
+           #29dbbc,
+           #ddf505,
+           #ff9f0e,
+           #e440bb,
+           #655adc,
+           #488cfb
+       );
+    -webkit-mask-image: var(--m-i), var(--m-i);
+    mask-image: var(--m-i), var(--m-i);
+    -webkit-mask-origin: var(--m-o);
+    mask-origin: var(--m-o);
+    -webkit-mask-clip: var(--m-o);
+    mask-composite: exclude;
+    -webkit-mask-composite: destination-out;
+    filter: hue-rotate(0);
+    animation: rotate-hue linear 500ms infinite;
+    animation-play-state: paused;
+   }
+   
+   button:hover::after {
+    animation-play-state: running;
+   }
+   
+   @keyframes rotate-hue {
+    to {
+     filter: hue-rotate(1turn);
+    }
+   }
+   
+   button,
+   button::after {
+    box-sizing: border-box;
+   }
+   
+   button:active {
+    --border-width: 5px;
+   }
+.uiui {
+color: black ;
+font-size: 25px ;
+text-align: center;
+
+}
+.product {
+    margin-top: 50px ;
+}
+.product img {
+    height: 200px;
+}
+.uouo {
+    display: flex;
+    justify-content: space-around
+ 
+    
+    
+}
+.navbar-brand {
+     font-size: 50px;
+     position: relative;
+     left : 30px ;
+}
+.active {
+     font-size: 25px ;
+     position: relative;
+     left : 50px ;
+}
+.oke {
+    font-size: 25px ;
+    position: relative;
+    left : 60px ;
+}
+.dropdown-toggle {
+    font-size: 22px ;
+    position: relative;
+    left : 70px ;
+}
+.disabled {
+    font-size: 20px ;
+    position: relative;
+    left : 80px ;
+}
+.okee {
+    font-size : 2em ;
+    color : black ;
+    position: relative;
+    left : -30px ;
+}
+.oki {
+    font-size: 30px;
+    text-align: center;
+}
+.ok{
+    text-align: center;
+}
+
+
+
